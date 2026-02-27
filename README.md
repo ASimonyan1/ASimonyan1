@@ -1,16 +1,32 @@
-## Hi there 👋
+<h1 align="center">Привет! Я Артем 👋</h1>
 
-<!--
-**ASimonyan1/ASimonyan1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <b>Студент РТУ МИРЭА • Хочу в Android (Kotlin) • Люблю разбираться в алгоритмах</b>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧭 Про меня
+- 🎓 1 курс, РТУ МИРЭА (Системная и программная инженерия)
+- 📱 Цель: Android-разработка (Kotlin)
+- 🧠 Фундамент: алгоритмы, структуры данных, ООП
+- 🚀 Сейчас усиливаю: Git + основы Android экосистемы
+
+---
+
+### 🛠️ Навыки
+**Языки:** Python (уверенно), C++ (средне), Kotlin/Java (в процессе)  
+**Дальше по плану:** Android Studio, Jetpack, архитектура приложений
+
+---
+
+### 📌 Что будет в профиле дальше
+- ✅ 2 Android-проекта для портфолио (скоро добавлю в репозитории ниже)
+- ✅ README + скриншоты + APK релизы
+- ✅ аккуратные коммиты и структура проекта
+
+---
+
+### 📫 Контакты
+- Email: artemsimonan81@gmail.com
+- GitHub: https://github.com/ASimonyan1
