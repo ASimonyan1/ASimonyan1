@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="124" viewBox="0 0 960 124" role="img" aria-labelledby="title desc">
+<title id="title">Языки и направление подготовки</title><desc id="desc">C++, Python, Java — университетская подготовка. Kotlin — Android-проект.</desc>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="1" y="1" width="226" height="122" rx="16" fill="#172B42" stroke="#344C69"/>
+<text x="23" y="35" font-size="12" letter-spacing="1.5" fill="#A3BBD6">UNIVERSITY</text><text x="23" y="83" font-size="34" font-weight="700" fill="#A8D2FF">C++</text><path d="m177 62-10 10 10 10m20-20 10 10-10 10" fill="none" stroke="#638BB9" stroke-width="3"/>
+<rect x="245" y="1" width="226" height="122" rx="16" fill="#202E39" stroke="#3C5060"/>
+<text x="267" y="35" font-size="12" letter-spacing="1.5" fill="#AAB9C4">UNIVERSITY</text><text x="267" y="83" font-size="34" font-weight="700" fill="#E9D892">Python</text>
+<rect x="489" y="1" width="226" height="122" rx="16" fill="#302B32" stroke="#56434C"/>
+<text x="511" y="35" font-size="12" letter-spacing="1.5" fill="#CFB1B1">UNIVERSITY</text><text x="511" y="83" font-size="34" font-weight="700" fill="#F4BEA7">Java</text>
+<rect x="733" y="1" width="226" height="122" rx="16" fill="#29283F" stroke="#4C466B"/>
+<text x="755" y="35" font-size="12" letter-spacing="1.5" fill="#C0B9DE">ANDROID PROJECT</text><text x="755" y="83" font-size="34" font-weight="700" fill="#CABDFF">Kotlin</text>
+</g></svg>
