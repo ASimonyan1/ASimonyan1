@@ -1,30 +1,62 @@
-# Привет, я Артём
+<p align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Artem Simonyan — Android / Kotlin. Студент РТУ МИРЭА." />
+</p>
 
-**Студент РТУ МИРЭА · Android / Kotlin**
+<p align="center">
+  <a href="https://github.com/ASimonyan1/studyflow-android"><b>Android-проект</b></a>
+  &nbsp; / &nbsp;
+  <a href="https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md"><b>Архитектура</b></a>
+  &nbsp; / &nbsp;
+  <a href="mailto:artemsimonan81@gmail.com"><b>Связаться</b></a>
+</p>
 
-Учусь на втором курсе направления «Системная и программная инженерия». Развиваюсь в мобильной разработке: интересуют архитектура приложений, локальное хранение данных и понятные пользовательские интерфейсы.
+<br />
 
-## Проект
+### Привет, я Артём
 
-### [StudyFlow — планировщик учебных задач](https://github.com/ASimonyan1/studyflow-android)
+Учусь на **2 курсе РТУ МИРЭА**, направление — «Системная и программная инженерия». Развиваюсь в Android-разработке: мне интересно, как устроены приложения — от интерфейса и состояния до хранения данных и обработки ошибок.
 
-Android-приложение для задач, предметов и сроков. Работает без интернета и регистрации.
+**Мой фокус:** понятный код, продуманный интерфейс и работа приложения без сети.
 
-- **Kotlin · Jetpack Compose · Material 3 · Room · Coroutines / Flow**
-- Создание и редактирование задач, поиск, фильтры и контроль сроков.
-- ViewModel и репозиторий, JVM-тесты правил, интеграционный тест Room.
-- Инструкция запуска, разбор архитектуры и автоматическая сборка APK в GitHub Actions.
+<br />
 
-[Исходный код](https://github.com/ASimonyan1/studyflow-android) · [Проверки и APK](https://github.com/ASimonyan1/studyflow-android/actions) · [Разбор проекта](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md)
+### 01 / Проект
 
-Учебный прототип подготовлен с помощью AI-инструментов; текущие ограничения и способы проверки описаны в README проекта.
+<a href="https://github.com/ASimonyan1/studyflow-android">
+  <img src="./assets/studyflow-card.svg" width="100%" alt="StudyFlow — планировщик учебных задач. Kotlin, Compose, Room, MVVM. Открыть репозиторий." />
+</a>
 
-## Учебные интересы
+<p>
+  <a href="https://github.com/ASimonyan1/studyflow-android/actions/workflows/android.yml"><img src="https://github.com/ASimonyan1/studyflow-android/actions/workflows/android.yml/badge.svg" alt="Android CI" /></a>
+</p>
 
-- Алгоритмы и структуры данных, ООП и базы данных.
-- Android: жизненный цикл, управление состоянием, работа без сети.
-- Дальнейшее развитие StudyFlow: напоминания, экспорт и синхронизация данных.
+Создание и редактирование задач, поиск по предмету, фильтры и контроль сроков. Данные хранятся локально в Room; интерфейс получает обновления через Flow и ViewModel.
 
-## Контакты
+**[Код →](https://github.com/ASimonyan1/studyflow-android)** &nbsp; · &nbsp; **[Сборки и APK →](https://github.com/ASimonyan1/studyflow-android/actions)** &nbsp; · &nbsp; **[Как устроен проект →](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md)**
 
-[GitHub](https://github.com/ASimonyan1) · [Email](mailto:artemsimonan81@gmail.com)
+<sub>Учебный прототип подготовлен с помощью AI-инструментов. Возможности, ограничения и проверки описаны в README проекта.</sub>
+
+<br />
+
+### 02 / Что изучаю
+
+| Разработка | Инженерная основа |
+| :--- | :--- |
+| **Kotlin и Jetpack Compose** — интерфейсы и состояние | **Алгоритмы и структуры данных** — выбор подходящего решения |
+| **Room, SQL, Coroutines и Flow** — хранение и потоки данных | **ООП и архитектура** — разделение ответственности |
+| **Жизненный цикл Android** — поведение приложения | **Git и тестирование** — понятные изменения и проверка результата |
+
+<br />
+
+### 03 / Следующие шаги
+
+В StudyFlow хочу добавить напоминания и экспорт задач, расширить UI-тесты, затем разобраться с синхронизацией и разрешением конфликтов данных.
+
+---
+
+<p align="center">
+  <b>Обсудим Android?</b><br />
+  <a href="mailto:artemsimonan81@gmail.com">artemsimonan81@gmail.com</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/ASimonyan1">@ASimonyan1</a>
+</p>
