@@ -26,7 +26,7 @@
 
 <br />
 
-### 01 / Проект
+### 01 / Проекты
 
 <a href="https://github.com/ASimonyan1/studyflow-android">
   <img src="./assets/studyflow-card.svg" width="100%" alt="StudyFlow — планировщик учебных задач. Kotlin, Compose, Room, MVVM. Открыть репозиторий." />
@@ -41,6 +41,29 @@
 **[Код →](https://github.com/ASimonyan1/studyflow-android)** &nbsp; · &nbsp; **[Сборки и APK →](https://github.com/ASimonyan1/studyflow-android/actions)** &nbsp; · &nbsp; **[Как устроен проект →](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md)**
 
 <sub>Учебный прототип подготовлен с помощью AI-инструментов. Возможности, ограничения и проверки описаны в README проекта.</sub>
+
+
+<br />
+
+<a href="https://github.com/ASimonyan1/reposcout-android"><img src="./assets/reposcout-card.svg" width="100%" alt="RepoScout — поиск GitHub-проектов. Сеть, пагинация, кеш и избранное." /></a>
+
+[![RepoScout CI](https://github.com/ASimonyan1/reposcout-android/actions/workflows/android.yml/badge.svg)](https://github.com/ASimonyan1/reposcout-android/actions)
+
+Поиск через GitHub API, отмена устаревших запросов, страницы результатов и локальное избранное. При ошибке сети — кеш с отметкой времени. Тесты HTTP через MockWebServer и сценарии ViewModel с виртуальным временем.
+
+**[Код →](https://github.com/ASimonyan1/reposcout-android)** · **[Проверки и APK →](https://github.com/ASimonyan1/reposcout-android/actions)**
+
+<br />
+
+<a href="https://github.com/ASimonyan1/algorithms-lab"><img src="./assets/algorithms-card.svg" width="100%" alt="Algorithms Lab — C++17, алгоритмы и структуры данных, разбор сложности и тесты." /></a>
+
+[![C++ CI](https://github.com/ASimonyan1/algorithms-lab/actions/workflows/cpp.yml/badge.svg)](https://github.com/ASimonyan1/algorithms-lab/actions)
+
+Бинарный поиск, сортировка слиянием, BFS/DFS, динамическое программирование, очередь, стек с минимумом и хеш-таблица. Граничные случаи, сравнение с эталонными решениями, проверки на Linux и Windows, AddressSanitizer и UBSan.
+
+**[Код →](https://github.com/ASimonyan1/algorithms-lab)** · **[Разборы →](https://github.com/ASimonyan1/algorithms-lab/blob/main/docs/NOTES.md)** · **[Тесты →](https://github.com/ASimonyan1/algorithms-lab/actions)**
+
+<sub>Все три проекта — учебная практика, подготовленная с помощью AI-инструментов. Реализованные возможности, ограничения и способы проверки описаны в каждом репозитории.</sub>
 
 <br />
 
