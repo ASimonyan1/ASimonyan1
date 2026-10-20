@@ -40,7 +40,7 @@
 
 **[Код →](https://github.com/ASimonyan1/studyflow-android)** &nbsp; · &nbsp; **[Сборки и APK →](https://github.com/ASimonyan1/studyflow-android/actions)** &nbsp; · &nbsp; **[Как устроен проект →](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md)**
 
-<sub>Учебный прототип подготовлен с помощью AI-инструментов. Возможности, ограничения и проверки описаны в README проекта.</sub>
+<sub>Учебный прототип. Возможности, ограничения и проверки описаны в README проекта.</sub>
 
 
 <br />
@@ -63,7 +63,7 @@
 
 **[Код →](https://github.com/ASimonyan1/algorithms-lab)** · **[Разборы →](https://github.com/ASimonyan1/algorithms-lab/blob/main/docs/NOTES.md)** · **[Тесты →](https://github.com/ASimonyan1/algorithms-lab/actions)**
 
-<sub>Все три проекта — учебная практика, подготовленная с помощью AI-инструментов. Реализованные возможности, ограничения и способы проверки описаны в каждом репозитории.</sub>
+<sub>Все три проекта — учебная практика. Реализованные возможности, ограничения и способы проверки описаны в каждом репозитории.</sub>
 
 <br />
 
