@@ -1,136 +1,77 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Artem Simonyan — Android / Kotlin. Студент РТУ МИРЭА." />
-</p>
+<img src="assets/profile-banner.svg" width="100%" alt="Artem Simonyan — Android, Java Backend, C++ Systems" />
 
 <p align="center">
-  <a href="https://github.com/ASimonyan1/studyflow-android"><b>Android-проект</b></a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md"><b>Архитектура</b></a>
-  &nbsp; / &nbsp;
-  <a href="mailto:artemsimonan81@gmail.com"><b>Связаться</b></a>
+  <a href="#проекты">Проекты</a> &nbsp; · &nbsp;
+  <a href="https://github.com/ASimonyan1/studyflow-backend/blob/main/docs/DECISIONS.md">Архитектурные решения</a> &nbsp; · &nbsp;
+  <a href="mailto:artemsimonan81@gmail.com">Связаться</a>
 </p>
 
-<br />
+## Привет, я Артём
 
-### Привет, я Артём
+Студент **2 курса РТУ МИРЭА**, направление «Системная и программная инженерия», выпуск в **2029**. Москва.
 
-Учусь на **2 курсе РТУ МИРЭА**, направление — «Системная и программная инженерия». Развиваюсь в Android-разработке: мне интересно, как устроены приложения — от интерфейса и состояния до хранения данных и обработки ошибок.
+Развиваюсь в мобильной и серверной разработке. В проектах разбираю полный путь данных: от состояния Android-интерфейса и сетевых запросов до транзакций БД и конкурентной обработки заданий. Мне интересны корректность при сбоях, понятные контракты и тесты, которые проверяют поведение.
 
-В университете изучаю **C++, Python, Java и СиАОД — структуры и алгоритмы обработки данных**. Эту базу связываю с интересом к мобильной разработке: хочу понимать и пользовательский интерфейс, и алгоритмы, и работу приложения с данными.
+**Открыт к стажировкам:** Android / Kotlin · Java backend · C++ backend.
 
-**Сейчас ищу:** стажировку по Android-разработке, где смогу решать практические задачи и учиться у команды.
+## Проекты
 
-<p>
-  <img src="./assets/languages.svg" width="100%" alt="Университетская подготовка: C++, Python, Java. Android-проект: Kotlin." />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/ASimonyan1/studyflow-backend"><img src="assets/studyflow-backend.svg" alt="StudyFlow Backend — Java и PostgreSQL" width="100%" /></a>
+<b>StudyFlow Backend</b><br />
+Java 21 · Spring Boot · PostgreSQL · Hibernate<br /><br />
+REST API: идемпотентное создание, optimistic locking, атомарные пакеты и аудит. Интеграционные тесты на настоящем PostgreSQL.<br /><br />
+<a href="https://github.com/ASimonyan1/studyflow-backend">Код</a> · <a href="https://github.com/ASimonyan1/studyflow-backend/blob/main/docs/DECISIONS.md">Архитектура</a> · <a href="https://github.com/ASimonyan1/studyflow-backend/actions">CI</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/ASimonyan1/leasequeue-cpp"><img src="assets/leasequeue-cpp.svg" alt="LeaseQueue — C++20 и конкурентная обработка" width="100%" /></a>
+<b>LeaseQueue</b><br />
+C++20 · STL · Threads · CMake<br /><br />
+Очередь заданий: аренда с token, retry, восстановление из журнала. Конкурентные тесты и явные гарантии при ошибках записи.<br /><br />
+<a href="https://github.com/ASimonyan1/leasequeue-cpp">Код</a> · <a href="https://github.com/ASimonyan1/leasequeue-cpp/blob/main/docs/DESIGN.md">Дизайн</a> · <a href="https://github.com/ASimonyan1/leasequeue-cpp/actions">CI</a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<a href="https://github.com/ASimonyan1/studyflow-android"><img src="assets/studyflow-android.svg" alt="StudyFlow Android — Compose и Room" width="100%" /></a>
+<b>StudyFlow Android</b><br />
+Kotlin · Jetpack Compose · Room · Flow<br /><br />
+Учебный планировщик: предметы, дедлайны, фильтры и локальное хранение. Проверки базы и UI на эмуляторе.<br /><br />
+<a href="https://github.com/ASimonyan1/studyflow-android">Код и скриншоты</a> · <a href="https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md">Разбор</a> · <a href="https://github.com/ASimonyan1/studyflow-android/actions">APK / CI</a>
+</td>
+<td valign="top">
+<a href="https://github.com/ASimonyan1/reposcout-android"><img src="assets/reposcout-android.svg" alt="RepoScout — Android и GitHub API" width="100%" /></a>
+<b>RepoScout</b><br />
+Kotlin · Retrofit · OkHttp · Room<br /><br />
+Поиск GitHub-проектов: пагинация, отмена устаревших запросов, кеш и избранное. HTTP-тесты через MockWebServer.<br /><br />
+<a href="https://github.com/ASimonyan1/reposcout-android">Код</a> · <a href="https://github.com/ASimonyan1/reposcout-android/blob/main/docs/TESTING.md">Проверки</a> · <a href="https://github.com/ASimonyan1/reposcout-android/actions">APK / CI</a>
+</td>
+</tr>
+</table>
 
-<br />
+**[Algorithms Lab →](https://github.com/ASimonyan1/algorithms-lab)** — C++17, 15 алгоритмов и структур данных. Разбор сложности, граничные случаи, сравнение со STL и полным перебором; Linux/Windows, AddressSanitizer и UBSan.
 
-### 01 / Проекты
+Все проекты — учебная инженерная практика. README содержат команды запуска, тесты и границы реализации. StudyFlow Android пока работает локально; подключение к backend — отдельный следующий этап.
 
-<a href="https://github.com/ASimonyan1/studyflow-android">
-  <img src="./assets/studyflow-card.svg" width="100%" alt="StudyFlow — планировщик учебных задач. Kotlin, Compose, Room, MVVM. Открыть репозиторий." />
-</a>
+## Технологии в коде
 
-<p>
-  <a href="https://github.com/ASimonyan1/studyflow-android/actions/workflows/android.yml"><img src="https://github.com/ASimonyan1/studyflow-android/actions/workflows/android.yml/badge.svg" alt="Android CI" /></a>
-</p>
+| Направление | С чем работаю в проектах |
+|---|---|
+| **Android** | Kotlin, Compose, Material 3, ViewModel, Coroutines/Flow, Room, Retrofit |
+| **Java backend** | Java 21, Spring Boot, JPA/Hibernate, PostgreSQL, Flyway, HTTP/JSON |
+| **C++** | C++17/20, STL, RAII, потоки и mutex, CMake, алгоритмы и структуры данных |
+| **Проверки** | JUnit, Mockito, MockMvc, MockWebServer, Compose UI tests, sanitizers |
+| **Инструменты** | Git, Gradle, GitHub Actions, Docker Compose |
 
-Создание и редактирование задач, поиск по предмету, фильтры и контроль сроков. Данные хранятся локально в Room; интерфейс получает обновления через Flow и ViewModel.
-
-**[Код →](https://github.com/ASimonyan1/studyflow-android)** &nbsp; · &nbsp; **[Сборки и APK →](https://github.com/ASimonyan1/studyflow-android/actions)** &nbsp; · &nbsp; **[Как устроен проект →](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md)**
-
-<sub>Учебный прототип. Возможности, ограничения и проверки описаны в README проекта.</sub>
-
-
-<br />
-
-<a href="https://github.com/ASimonyan1/reposcout-android"><img src="./assets/reposcout-card.svg" width="100%" alt="RepoScout — поиск GitHub-проектов. Сеть, пагинация, кеш и избранное." /></a>
-
-[![RepoScout CI](https://github.com/ASimonyan1/reposcout-android/actions/workflows/android.yml/badge.svg)](https://github.com/ASimonyan1/reposcout-android/actions)
-
-Поиск через GitHub API, отмена устаревших запросов, страницы результатов и локальное избранное. При ошибке сети — кеш с отметкой времени. Тесты HTTP через MockWebServer и сценарии ViewModel с виртуальным временем.
-
-**[Код →](https://github.com/ASimonyan1/reposcout-android)** · **[Проверки и APK →](https://github.com/ASimonyan1/reposcout-android/actions)**
-
-<br />
-
-<a href="https://github.com/ASimonyan1/algorithms-lab"><img src="./assets/algorithms-card.svg" width="100%" alt="Algorithms Lab — C++17, алгоритмы и структуры данных, разбор сложности и тесты." /></a>
-
-[![C++ CI](https://github.com/ASimonyan1/algorithms-lab/actions/workflows/cpp.yml/badge.svg)](https://github.com/ASimonyan1/algorithms-lab/actions)
-
-Бинарный поиск, сортировка слиянием, BFS/DFS, динамическое программирование, очередь, стек с минимумом и хеш-таблица. Граничные случаи, сравнение с эталонными решениями, проверки на Linux и Windows, AddressSanitizer и UBSan.
-
-**[Код →](https://github.com/ASimonyan1/algorithms-lab)** · **[Разборы →](https://github.com/ASimonyan1/algorithms-lab/blob/main/docs/NOTES.md)** · **[Тесты →](https://github.com/ASimonyan1/algorithms-lab/actions)**
-
-<sub>Все три проекта — учебная практика. Реализованные возможности, ограничения и способы проверки описаны в каждом репозитории.</sub>
-
-<br />
-
-### 02 / Университетская база
-
-**РТУ МИРЭА · 2 курс · Системная и программная инженерия**
-
-| Направление | Моя подготовка |
-| :--- | :--- |
-| **C++** | Изучаю в рамках университетской подготовки по программированию. |
-| **Python** | Один из языков моей учебной практики. |
-| **Java** | Изучаю в университете; хочу углублять знания в связи с Android-разработкой. |
-| **СиАОД** | Структуры и алгоритмы обработки данных — часть моей университетской подготовки. |
-| **Программная инженерия** | Интересуют ООП, организация кода, архитектура приложений и работа с данными. |
-
-<br />
-
-### 03 / Android: от теории к проекту
-
-Технологии, с которыми разбираюсь на примере **StudyFlow** и **RepoScout**:
-
-| Слой | Технологии | Что реализовано в проекте |
-| :--- | :--- | :--- |
-| **Интерфейс** | Jetpack Compose · Material 3 | Список задач, редактор, поиск, фильтры, светлая и тёмная темы |
-| **Состояние** | ViewModel · Coroutines · Flow | Получение обновлений из базы и передача состояния в UI |
-| **Данные** | Room · SQLite | Локальное хранение и работа без интернета |
-| **Структура** | MVVM · Repository | Разделение интерфейса, состояния и операций с данными |
-| **Сеть** | Retrofit · OkHttp · GitHub API | Поиск, пагинация, отмена запросов и обработка ошибок в RepoScout |
-| **Кеш** | Room · JSON | Сохранение страниц поиска и локальное избранное в RepoScout |
-| **Качество** | JUnit · MockWebServer · Compose UI Test · Android Lint | JVM-тесты, HTTP-сценарии и проверка StudyFlow на эмуляторе |
-| **Сборка** | Gradle · GitHub Actions | Автоматическая сборка debug APK и запуск проверок |
-
-**Инженерные вопросы, которые мне интересны:** как выбирать структуру данных под задачу, сохранять состояние при повороте экрана, обрабатывать ошибки и проверять граничные случаи.
-
-<br />
-
-### 04 / Куда развиваюсь
-
-- **Android:** глубже разобраться с жизненным циклом, управлением состоянием и асинхронной работой.
-- **Алгоритмы:** укреплять университетскую базу и учиться оценивать сложность решений.
-- **StudyFlow:** добавить напоминания и экспорт, расширить UI-тесты.
-- **Работа с данными:** изучить синхронизацию и разрешение конфликтов при изменениях без сети.
-
-<details>
-<summary><b>Заглянуть внутрь StudyFlow</b></summary>
-
-<br />
-
-```text
-Jetpack Compose UI
-        ↓ действия     ↑ состояние
-      ViewModel + Flow
-             ↕
-        Repository
-             ↕
-        Room / SQLite
-```
-
-[Разбор архитектуры и вопросы по коду](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/WALKTHROUGH.md) · [Сценарии проверки приложения](https://github.com/ASimonyan1/studyflow-android/blob/main/docs/TESTING.md)
-
-</details>
+Университетская база: ООП, алгоритмы и структуры данных, C++, Java и Python. В каждом направлении стремлюсь понимать не только успешный сценарий, но и поведение при ошибках и конкуренции.
 
 ---
 
 <p align="center">
-  <b>Обсудим Android?</b><br />
-  <a href="mailto:artemsimonan81@gmail.com">artemsimonan81@gmail.com</a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/ASimonyan1">@ASimonyan1</a>
+  <b>Обсудим проект или стажировку?</b><br />
+  <a href="mailto:artemsimonan81@gmail.com">artemsimonan81@gmail.com</a> &nbsp; · &nbsp;
+  <a href="https://t.me/arti_kx">Telegram @arti_kx</a><br />
+  <sub>Москва · РТУ МИРЭА · 2029</sub>
 </p>
