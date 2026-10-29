@@ -16,6 +16,14 @@
 
 ## Проекты
 
+### [Ledger C++ — API переводов и журнал проводок](https://github.com/ASimonyan1/ledger-cpp)
+
+<a href="https://github.com/ASimonyan1/ledger-cpp"><img src="assets/ledger-cpp.svg" alt="Ledger C++ — C++20 и PostgreSQL" width="100%" /></a>
+
+**C++20 · PostgreSQL · libpq · HTTP · Docker Compose.** Атомарные переводы, идемпотентные запросы, упорядоченные блокировки счетов и проводки в одной транзакции. Интеграционные тесты проверяют конкурентные списания и откат после ошибки БД.
+
+[Код и запуск](https://github.com/ASimonyan1/ledger-cpp) · [Транзакции и компромиссы](https://github.com/ASimonyan1/ledger-cpp/blob/main/docs/DESIGN.md) · [CI](https://github.com/ASimonyan1/ledger-cpp/actions)
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -29,7 +37,7 @@ REST API: идемпотентное создание, optimistic locking, ат�
 <a href="https://github.com/ASimonyan1/leasequeue-cpp"><img src="assets/leasequeue-cpp.svg" alt="LeaseQueue — C++20 и конкурентная обработка" width="100%" /></a>
 <b>LeaseQueue</b><br />
 C++20 · STL · Threads · CMake<br /><br />
-Очередь заданий: аренда с token, retry, восстановление из журнала. Конкурентные тесты и явные гарантии при ошибках записи.<br /><br />
+HTTP-сервер очереди: аренда с token, retry, восстановление из журнала. Авторизация, конкурентные HTTP-тесты и Docker Compose.<br /><br />
 <a href="https://github.com/ASimonyan1/leasequeue-cpp">Код</a> · <a href="https://github.com/ASimonyan1/leasequeue-cpp/blob/main/docs/DESIGN.md">Дизайн</a> · <a href="https://github.com/ASimonyan1/leasequeue-cpp/actions">CI</a>
 </td>
 </tr>
